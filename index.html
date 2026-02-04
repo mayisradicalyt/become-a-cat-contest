@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Become a Cat Contest!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Become a Cat Contest!</h1>
+<h2 class="subtitle">Mewgenics. February 10th.</h2>
+
+<div id="game">
+
+  <!-- CHARACTER -->
+  <div id="character">
+    <img src="images/base.png" class="layer">
+
+    <!-- Accessories start hidden -->
+    <img id="head"  class="layer hidden">
+    <img id="face"  class="layer hidden">
+    <img id="neck"  class="layer hidden">
+    <img id="torso" class="layer hidden">
+    <img id="waist" class="layer hidden">
+    <img id="tail"  class="layer hidden">
+  </div>
+
+  <!-- CONTROLS -->
+  <div id="controls">
+
+    <div class="control">
+      <span>Head</span>
+      <button onclick="prev('head')">◀</button>
+      <button onclick="next('head')">▶</button>
+    </div>
+
+    <div class="control">
+      <span>Face</span>
+      <button onclick="prev('face')">◀</button>
+      <button onclick="next('face')">▶</button>
+    </div>
+
+    <div class="control">
+      <span>Neck</span>
+      <button onclick="prev('neck')">◀</button>
+      <button onclick="next('neck')">▶</button>
+    </div>
+
+    <div class="control">
+      <span>Torso</span>
+      <button onclick="prev('torso')">◀</button>
+      <button onclick="next('torso')">▶</button>
+    </div>
+
+    <div class="control">
+      <span>Waist</span>
+      <button onclick="prev('waist')">◀</button>
+      <button onclick="next('waist')">▶</button>
+    </div>
+
+    <div class="control">
+      <span>Tail</span>
+      <button onclick="prev('tail')">◀</button>
+      <button onclick="next('tail')">▶</button>
+    </div>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

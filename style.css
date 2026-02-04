@@ -3,6 +3,8 @@ body {
   text-align: center;
   background: radial-gradient(#2b2b2b, #0f0f0f);
   color: #e6e6e6;
+  zoom: 150%;
+  overflow: hidden;
 }
 
 h1 {
@@ -78,4 +80,5 @@ button {
 button:hover {
   background: #444;
   box-shadow: 0 0 6px #ff7a00;
+
 }
